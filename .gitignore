@@ -1,0 +1,17 @@
+# Large data folders
+dataset/
+clip_cache/
+checkpoints/
+wandb/
+logs/
+open-data/
+manifests/
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Env
+.env
