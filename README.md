@@ -85,17 +85,6 @@ Inference is decoupled from post-processing: `02_` and `03_` pickle the raw per-
 
 All thesis numbers were produced on a single NVIDIA T4 GPU. The unified training notebook runs unchanged on consumer GPUs — drop `batch_size` in the registry if VRAM is the constraint; it does not affect reported metrics.
 
-## Citation
-
-```bibtex
-@mastersthesis{nymann2026goalspotting,
-  author  = {Nymann, Jin Tony},
-  title   = {Detecting Goals in Soccer Broadcasts Using Spatiotemporal Convolutional Neural Networks},
-  school  = {Oslo Metropolitan University},
-  year    = {2026},
-  type    = {Master's thesis}
-}
-```
 
 ## Acknowledgements
 
