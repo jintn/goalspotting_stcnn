@@ -1,18 +1,38 @@
-# Large data folders
+# Large data + generated artefacts (downloaded, cached, trained)
 dataset/
-clip_cache/
-checkpoints/
-wandb/
-logs/
-open-data/
-manifests/
-.claude/
 valset/
 valset.zip
+open-data/
+clip_cache/
+manifests/
+checkpoints/
+logs/
+wandb/
+
+# Notebook outputs from 02_/03_/04_
+results/
+figures/
+
+# Local research notebooks (not for distribution)
+notebooks/
+
+# Local tooling / scratch
+.agents/
+.codex
+.claude/
+MEMORY.md
+memory/
+
+# Secrets
+.env
+
 # Python
 __pycache__/
 *.pyc
 .venv/
 
-# Env
-.env
+# Jupyter
+.ipynb_checkpoints/
+
+# WSL / Windows download metadata
+*:Zone.Identifier
